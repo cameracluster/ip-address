@@ -15,8 +15,8 @@
 ```
 git clone https://github.com/cameracluster/ip-address.git
 ```
-2. Paste API access key into ip-address.sh under `access_key=...`
+2. Paste API access key into ip.sh under `access_key=...`
 3. Envoke ip-address by running in your shell of choice:
 ```
-./ip-address.sh
+./ip.sh
 ```
