@@ -1,6 +1,6 @@
 # ip-address
 - a simple shell script that shows user's IP address info
-- ipapi-shell uses the API from https://ipapi.com to request a json object of user's IP info and returns a minimal output of the user's country of origin, city, continent and ip address.
+- ip-address uses the API from https://ipapi.com to request a json object of user's IP info and returns a minimal output of the user's country of origin, city, continent and ip address.
 
 ## Screenshot:
 ![screencap](https://github.com/cameracluster/ipapi-shell/blob/main/scap2.png?raw=true)
@@ -13,10 +13,10 @@
 ## Usage:
 1. clone this repo with:
 ```
-git clone https://github.com/cameracluster/ipapi-shell.git
+git clone https://github.com/cameracluster/ip-address.git
 ```
-2. Paste API access key into ipapi.sh under `?access_key=...&`
-3. Envoke ipapi-shell by running in your CLI of choice:
+2. Paste API access key into ip-address.sh under `access_key=...`
+3. Envoke ip-address by running in your shell of choice:
 ```
-./ipapi.sh
+./ip-address.sh
 ```
